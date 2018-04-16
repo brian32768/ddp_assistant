@@ -6,5 +6,9 @@ class extDDP(object):
     def __init__(self):
         # For performance considerations, please remove all unused methods in this class.
         self.enabled = True
+        self.counter = 0
+
     def pageIndexExtentChanged(self, new_id):
+        self.counter += 1
+        print("Updating layout; page id", new_id, "counter", self.counter)
         pass
