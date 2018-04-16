@@ -1,0 +1,11 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>ddp assistant</Name><AddInID>{fbe110a1-5429-4e7e-8037-3a98e0032cce}</AddInID><Description>Support additional features for data driven pages</Description><Version>0.1</Version><Image>Images\handprint.png</Image><Author>Brian Wilson</Author><Company>Wildsong</Company><Date>04/15/2018</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="ddp_assistant_addin.py" namespace="ddp_assistant_addin"><ArcMap>
+    <Commands>
+        </Commands>
+    <Extensions>
+        <Extension autoLoad="true" category="ddp assistant" class="extDDP" description="" id="ddp_assistant_addin.ddp_extension" name="DDP assistant" productName="DDP assistant" showInExtensionDialog="true" />
+        </Extensions>
+    <Toolbars>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
